@@ -1,0 +1,22 @@
+#login{
+    border: 1.7px solid gainsboro;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+-webkit-box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+-moz-box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+}
+#signup{
+    border: 1.7px solid gainsboro;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+-webkit-box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+-moz-box-shadow: -4px 1px 20px 3px rgba(0,0,0,0.74);
+}
+#pcondit{
+    display: none;
+}
+#pcondit2{
+    display: none;
+}

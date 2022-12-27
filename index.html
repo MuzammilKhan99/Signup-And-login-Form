@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">ContactUs</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        <center>
+            <div class="row mt-3">
+                <div class="col-lg-5">
+                    <button class="btn btn-info form-control" id="log">Login</button>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Or</h5>
+                </div>
+                <div class="col-lg-5 ">
+                    <button class="btn btn-info form-control" id="sign">Sign Up</button>
+                </div>
+            </div>
+        </center>
+
+        <div class="row mt-4">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <form>
+                    <div id="login">
+                        <br>
+                        <center>
+                            <h1 >Login Form</h1>
+                        </center>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Enter Your Name">
+                        <br>
+                        <input type="password" id="pass1" class="form-control" placeholder="Enter Your Password" onkeyup="lpass()">
+                        <br>
+                        <ul id="pcondit">
+                            <li id="up">Password Must Contain One Upper Case</li>
+                            <li id="lo">Password Must Contain One Lower Case</li>
+                            <li id="sp">Password Must Contain One Special Character</li>
+                            <li id="num">Password Must Contain One Number</li>
+                            <li id="leng">Password Length Must Be Of 8 </li>
+
+                        </ul>
+                        <button class="btn btn-info form-control"  >Lgoin</button>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <form>
+                    <div id="signup">
+                        <br>
+                        <center>
+                            <h1 >SignUp Form</h1>
+                        </center>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Enter Your First Name">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Enter Your Last Name">
+                        <br>
+                        <input type="password" id="passc" class="form-control" placeholder="Enter Your Password" onkeyup="spass()">
+                        <br>
+                        <ul id="pcondit2">
+                            <li id="upc">Password Must Contain One Upper Case</li>
+                            <li id="loc">Password Must Contain One Lower Case</li>
+                            <li id="spc">Password Must Contain One Special Character</li>
+                            <li id="numc">Password Must Contain One Number</li>
+                            <li id="lengc">Password Length Must Be Of 8 </li>
+
+                        </ul>
+                        
+                        <input type="date" class="form-control">
+                        <br>
+                        <button class="btn btn-info form-control "  >Lgoin</button>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
